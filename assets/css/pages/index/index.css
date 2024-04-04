@@ -1,0 +1,53 @@
+@import url(/assets/css/global/fonts.css);
+@import url(/assets/css/global/variables.css);
+@import url(/assets/css/global/normalizer.css);
+@import url(/assets/css/global/elements.css);
+
+.buscar {
+    width: 100%;
+    background-color: var(--cor-cinza);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.input_busca {
+    width: 90%;
+    border: 1px solid var(--cor-cinza-claro);
+    height: 50px;
+    padding-left: 20px;
+    font-size: 22px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.input_text::placeholder {
+    
+}
+#ListaProdutos {
+    display: none;
+    width: 91%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+}
+
+#ListaProdutos li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--cor-preto);
+    border: 1px solid var(--cor-cinza-claro);
+    background: #f6f6f6;
+    padding: 12px;
+}
+#ListaProdutos li a:hover {
+    background: var(--cor-cinza);
+}
+
+.item-name {
+    margin-left: 15px
+}

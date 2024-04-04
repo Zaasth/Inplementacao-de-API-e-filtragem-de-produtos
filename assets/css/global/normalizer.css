@@ -1,0 +1,15 @@
+@import url(/assets/css/global/variables.css);
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: var(--Poppins);
+}
+a {
+    text-decoration: none;
+    color: var(--cor-preto);
+}
+h1, p {
+    margin-left: 5%;
+}
