@@ -44,7 +44,6 @@ fetch('https://fakestoreapi.com/products')
         
         //PEGAR TODAS AS LI
         li = ul.querySelectorAll("li");
-
         //Percorrer todos os LI
         for (i = 0; i < li.length; i++) {
 

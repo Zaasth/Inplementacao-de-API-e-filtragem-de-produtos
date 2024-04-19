@@ -12,7 +12,9 @@
     justify-content: center;
     position: relative;
 }
-
+.sumir {
+    display: none;
+}
 .input_busca {
     width: 90%;
     border: 1px solid var(--cor-cinza-claro);
